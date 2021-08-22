@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-kruskal-test",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Compute the Kruskal-Wallis test for equal medians.",
   "license": "Apache-2.0",
   "author": {
