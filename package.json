@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-incrspace": "^0.0.x",
+    "@stdlib/array-base-incrspace": "^0.0.x",
     "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/assert-is-array": "^0.0.x",
     "@stdlib/assert-is-boolean": "^0.0.x",
