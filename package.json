@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-kruskal-test",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Compute the Kruskal-Wallis test for equal medians.",
   "license": "Apache-2.0",
   "author": {
@@ -50,6 +50,7 @@
     "@stdlib/math-base-special-roundn": "^0.0.x",
     "@stdlib/stats-base-dists-chisquare-cdf": "^0.0.x",
     "@stdlib/stats-ranks": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils-count-by": "^0.0.x",
     "@stdlib/utils-define-read-only-property": "^0.0.x",
