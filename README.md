@@ -67,7 +67,7 @@ where `N` denotes the total number of observations and `t_{r(i)}` are the number
 ## Usage
 
 ```javascript
-import kruskalTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@esm/index.mjs';
+import kruskalTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@v0.1.0-esm/index.mjs';
 ```
 
 #### kruskalTest( a\[,b,...,k]\[, opts] )
@@ -177,7 +177,7 @@ console.log( out.print() );
 <body>
 <script type="module">
 
-import kruskalTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@esm/index.mjs';
+import kruskalTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@v0.1.0-esm/index.mjs';
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
