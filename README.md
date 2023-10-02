@@ -60,43 +60,30 @@ where `N` denotes the total number of observations and `t_{r(i)}` are the number
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-kruskal-test
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-kruskalTest = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-kruskal-test/tags). For example,
-
-```javascript
-kruskalTest = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var kruskalTest = require( 'path/to/vendor/umd/stats-kruskal-test/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.kruskalTest;
-})();
-</script>
+var kruskalTest = require( '@stdlib/stats-kruskal-test' );
 ```
 
 #### kruskalTest( a\[,b,...,k]\[, opts] )
@@ -200,13 +187,8 @@ console.log( out.print() );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var kruskalTest = require( '@stdlib/stats-kruskal-test' );
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
@@ -236,11 +218,6 @@ var table = out.print();
 
     Test Decision: Fail to reject null in favor of alternative at 5% significance level
 */
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -300,8 +277,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-kruskal-test.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-kruskal-test
 
-[test-image]: https://github.com/stdlib-js/stats-kruskal-test/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/stats-kruskal-test/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/stats-kruskal-test/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-kruskal-test/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-kruskal-test/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-kruskal-test?branch=main
