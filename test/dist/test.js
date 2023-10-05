@@ -29,8 +29,8 @@ var kruskalTest = require( './../../dist' );
 
 // FIXTURES //
 
-var noties = require( './../..xtures/r/noties.json' );
-var ties = require( './../..xtures/r/ties.json' );
+var noties = require( './../fixtures/r/noties.json' );
+var ties = require( './../fixtures/r/ties.json' );
 
 
 // TESTS //
