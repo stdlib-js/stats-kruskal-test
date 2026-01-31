@@ -48,7 +48,7 @@
     "@stdlib/assert-is-positive-integer": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-special-roundn": "^0.2.2",
-    "@stdlib/stats-base-dists-chisquare-cdf": "^0.2.2",
+    "@stdlib/stats-base-dists-chisquare-cdf": "^0.3.0",
     "@stdlib/stats-ranks": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.4.3",
