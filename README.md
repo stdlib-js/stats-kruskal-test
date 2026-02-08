@@ -67,6 +67,11 @@ where `N` denotes the total number of observations and `t_{r(i)}` are the number
 ## Usage
 
 ```javascript
+import kruskalTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-kruskal-test/tags). For example,
+
+```javascript
 import kruskalTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@v0.2.3-esm/index.mjs';
 ```
 
@@ -177,7 +182,7 @@ console.log( out.print() );
 <body>
 <script type="module">
 
-import kruskalTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@v0.2.3-esm/index.mjs';
+import kruskalTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-kruskal-test@esm/index.mjs';
 
 // Data from Hollander & Wolfe (1973), p. 116:
 var x = [ 2.9, 3.0, 2.5, 2.6, 3.2 ];
